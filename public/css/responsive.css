@@ -1,0 +1,55 @@
+/* /// MEDIA QUREY CSS RESPONSIVE WEB //// */
+
+@media only screen and (max-width: 1140px){
+    .nav-bar-list{
+        flex-direction: column;
+    }
+    .nav-bar-logo img{
+        width: 50px;
+        margin: 8px;
+    }
+    .nav-bar{
+        height: 478px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .right-nav-bar{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #Search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .Text-small{
+        text-align: center;
+    }
+    .Text-big{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .text-footer{
+        width: 100%;
+        font-size: 12px
+    }
+    
+}
